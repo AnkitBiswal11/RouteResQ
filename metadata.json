@@ -1,0 +1,6 @@
+{
+  "name": "RouteResQ — AI Emergency Mobility & Dynamic Transit Network",
+  "description": "Next-generation emergency mobility intelligence system providing dynamic graph routing, automated roadblock detours, and multi-factor ambulance dispatch worldwide.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

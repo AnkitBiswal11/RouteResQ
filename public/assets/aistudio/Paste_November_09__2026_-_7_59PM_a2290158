@@ -1,0 +1,1400 @@
+# MASTER BUILD PROMPT — ROUTERESQ
+## AI-Powered Dynamic Transit, Emergency Response & Intelligent Mobility Network
+
+Act as a world-class product architect, senior full-stack engineer, AI engineer, UI/UX designer, geospatial engineer, and emergency mobility systems specialist.
+
+Build a complete, polished, fully interactive, hackathon-ready software prototype called **RouteResQ**.
+
+This is a national-level hackathon project. The output must look and behave like a real emergency response and smart-city traffic management platform that could eventually be deployed across Indian cities.
+
+Do not build a simple website, static dashboard, landing-page-only prototype, or disconnected collection of demo screens.
+
+Build one integrated, realistic, functional application.
+
+---
+
+# 1. PROJECT IDENTITY
+
+**Product Name:** RouteResQ
+
+**Product Category:** AI-Powered Emergency Mobility & Dynamic Transit Intelligence Platform
+
+**Tagline:** Every Second Counts. Every Route Matters.
+
+**Brand Identity:**
+- Deep navy blue: #142D4F
+- Primary blue: #2878E8
+- Emergency red: #F00016
+- Priority green: #13A878
+- Background: #F3F6FB
+- White: #FFFFFF
+- Text: #192F4D
+- Secondary text: #71819A
+- Warning amber: #F2A51A
+
+Use these colors consistently.
+
+Create a professional custom RouteResQ logo featuring:
+- A modern navy shield.
+- A road or route symbol.
+- A medical cross.
+- A subtle emergency signal element.
+
+The logo must look like a professional technology company brand, not a generic icon.
+
+Use consistent branding throughout all pages.
+
+---
+
+# 2. VISUAL DESIGN — FOLLOW THE UPLOADED REFERENCE SCREENSHOTS
+
+The uploaded screenshots are the primary design references.
+
+Reproduce their overall visual language and layout quality.
+
+DO NOT copy their sample personal information, exact dashboard data, or incorrect emergency claims.
+
+Design requirements:
+
+1. Professional enterprise-level SaaS interface.
+2. Premium navy sidebar.
+3. White top navigation.
+4. Light blue-grey dashboard background.
+5. Large clean white cards.
+6. Rounded corners, subtle shadows, and thin borders.
+7. Professional typography.
+8. Consistent spacing and alignment.
+9. Realistic maps with actual geographic road layouts.
+10. Clear emergency indicators.
+11. Minimal unnecessary text.
+12. Attractive interactive visualizations.
+
+Use a modern font such as Inter or Manrope.
+
+Avoid:
+- Excessive gradients.
+- Neon colors.
+- Cartoon illustrations.
+- Generic AI-generated dashboard graphics.
+- Unnecessary animations.
+- Oversized decorative text.
+- Randomly positioned elements.
+- Broken layouts.
+- Excessive card nesting.
+- Fake charts that never update.
+
+Use realistic photographs only where appropriate, such as ambulance imagery, hospital facilities, and road incidents.
+
+Use actual map rendering for the primary operational visualization.
+
+The result should resemble a professional emergency operations platform used by a real city administration.
+
+Make the interface fully responsive for desktop, tablets, and mobile devices.
+
+---
+
+# 3. APPLICATION ARCHITECTURE
+
+Create one integrated application with the following connected interfaces.
+
+## A. Public Landing Page
+
+Create a premium landing page for RouteResQ.
+
+Header:
+- RouteResQ logo.
+- Capabilities.
+- Live Operations.
+- AI Intelligence.
+- Remote Guardian.
+- Analytics.
+- Language selector.
+- Emergency 1-Tap SOS.
+- Launch Command Center.
+
+Hero section:
+
+Headline:
+
+"Every Second Counts. Every Route Matters."
+
+Description:
+
+"An intelligent emergency mobility network that predicts road disruptions, dynamically reroutes ambulances, coordinates emergency priority corridors, and keeps public transportation moving."
+
+Display:
+- Realistic ambulance image.
+- Emergency route visualization.
+- Active priority corridor indicator.
+- Estimated arrival time.
+- Roadblock notification.
+- Time saved indicator.
+
+Buttons:
+- Launch Command Center.
+- Voice Emergency SOS.
+- Learn More.
+
+Include:
+- Product capabilities.
+- How RouteResQ works.
+- Emergency green corridor explanation.
+- Offline emergency capability.
+- AI traffic prediction.
+- Public safety impact.
+
+Add a persistent floating Emergency SOS button on the landing page.
+
+The emergency button must work.
+
+---
+
+# 4. CENTRAL EMERGENCY COMMAND CENTER
+
+This is the most important interface.
+
+Create a professional command center with a fixed navy sidebar and a white top navigation bar.
+
+Sidebar navigation:
+
+CORE OPERATIONS
+1. Overview
+2. Live Operations
+3. Emergency Intelligence
+4. Smart Dispatch
+5. Recovery & Offline
+
+FAMILY CARE & TOOLS
+6. Remote Guardian
+7. Analytics
+8. Settings
+
+Top navigation:
+- RouteResQ logo.
+- Emergency Command Center title.
+- City and regional location.
+- Live grid status.
+- Current local time.
+- Language selector.
+- Cloud synchronization status.
+- 1-Tap SOS.
+- Voice SOS.
+- Family Remote SOS.
+- Critical and active incident indicators.
+- Landing page navigation.
+
+Make all sidebar items clickable and connect them to actual pages.
+
+## Dashboard KPI cards
+
+Display:
+
+1. Active Emergencies.
+2. Available Ambulance Units.
+3. Responding En Route.
+4. Road Disruptions.
+5. Hospital Beds Ready.
+6. Active Green Corridors.
+
+Use live application state.
+
+Never hardcode changing KPI numbers.
+
+When an emergency is created, update relevant counts.
+
+When an ambulance is dispatched, update its status.
+
+When a roadblock is reported, update the disruption counter.
+
+When an incident is resolved, update the dashboard.
+
+## Main dashboard sections
+
+LEFT:
+- Active Emergency Incident Queue.
+- Critical emergency alerts.
+- Emergency classification.
+- Incident location.
+- Assigned ambulance.
+- Response status.
+- Track Live Map action.
+
+RIGHT:
+- Hospital Emergency Readiness.
+- Trauma centers.
+- ICU availability.
+- Verified bed availability.
+- Hospital selection.
+- Live event stream.
+
+Include:
+- Smart Dispatch button.
+- Report Emergency button.
+- Open Live Operations Map button.
+
+All controls must perform real application actions.
+
+---
+
+# 5. LIVE OPERATIONS — REAL INTERACTIVE CITY MAP
+
+This is the visual centerpiece of the entire project.
+
+Use Leaflet with OpenStreetMap tiles and a suitable routing integration.
+
+The default demonstration city should be Sambalpur, Odisha, India.
+
+Use realistic geographical coordinates for:
+- Sambalpur city.
+- Burla.
+- VIMSAR.
+- Sambalpur District Headquarters Hospital.
+- Major roads and intersections.
+- Mahanadi bridges.
+- Nearby emergency facilities.
+
+Use actual geographical locations where available.
+
+Map interface requirements:
+
+- Full-width interactive map.
+- Zoom and pan.
+- Current ambulance markers.
+- Hospital markers.
+- Road incident markers.
+- Accident markers.
+- Road closure markers.
+- Public transport vehicle markers.
+- Emergency route polylines.
+- Alternative route polylines.
+- Green corridor visualization.
+
+Map controls:
+- Ambulances.
+- Hospitals.
+- Incidents.
+- Roadblocks.
+- Public Transit.
+- Priority Corridors.
+- Zoom in/out.
+- Recenter.
+- Pause simulation.
+- Resume simulation.
+- Advance simulation tick.
+
+Use distinct, recognizable marker designs.
+
+Color convention:
+- Blue: Ambulances.
+- Green: Priority emergency route.
+- Orange: Alternative route.
+- Red: Blocked road or critical incident.
+- Purple: Hospital.
+- Yellow: Public transport.
+
+Add a floating operational map legend.
+
+When an ambulance is selected, show:
+- Vehicle ID.
+- Current location.
+- Speed.
+- Assigned emergency.
+- Destination.
+- ETA.
+- Current route.
+- Corridor status.
+- Driver status.
+
+Clicking an incident should display its details.
+
+Clicking a hospital should display its facilities and availability.
+
+Clicking a roadblock should display its verification status and affected routes.
+
+The map must not be a static background image.
+
+If map services are unavailable, provide a graceful fallback using a cached or simplified geographic map.
+
+---
+
+# 6. DYNAMIC ROUTING ENGINE
+
+Implement a genuine route calculation engine.
+
+Represent the road network as a weighted graph.
+
+Nodes represent intersections.
+
+Edges represent road segments.
+
+Each road segment should contain:
+- Distance.
+- Road type.
+- Speed limit.
+- Current traffic speed.
+- Congestion.
+- Road closure status.
+- Vehicle restrictions.
+- Reliability score.
+- Data freshness.
+
+Use:
+- A* for efficient pathfinding.
+- Dijkstra for baseline shortest-path comparison.
+- Dynamic edge weights.
+- Alternative route calculation.
+- Emergency-specific routing policies.
+
+Calculate a dynamic route cost:
+
+W(e) = TravelTime + CongestionPenalty + RiskPenalty + UncertaintyPenalty.
+
+Closed roads must be excluded from route calculation.
+
+The system must evaluate:
+- Shortest ETA.
+- Route reliability.
+- Road availability.
+- Congestion.
+- Safety.
+- Emergency vehicle restrictions.
+
+Show at least three alternative routes when available.
+
+For each route display:
+- Estimated time.
+- Distance.
+- Congestion.
+- Reliability.
+- Road conditions.
+
+Allow comparison between routes.
+
+Automatically reroute when:
+- A road becomes blocked.
+- Traffic increases significantly.
+- An accident is reported.
+- A route becomes unavailable.
+- A better feasible alternative is identified.
+
+Do not recalculate unnecessarily for unrelated road changes.
+
+Display the old route and the new route visually.
+
+Show:
+- Previous ETA.
+- New ETA.
+- Time saved or lost.
+- Reason for rerouting.
+- Timestamp of the change.
+
+---
+
+# 7. AI-POWERED EMERGENCY INTELLIGENCE
+
+Create a dedicated Emergency Intelligence page.
+
+Include these modules:
+
+## A. Predictive Traffic Intelligence
+
+Analyze traffic conditions and predict:
+- Congestion.
+- Potential bottlenecks.
+- Unusual traffic slowdowns.
+- Road disruption probability.
+
+Use historical patterns and simulated live traffic data.
+
+Display:
+- Congestion heatmap.
+- Predicted traffic conditions.
+- Risk score.
+- Confidence score.
+- Prediction time window.
+
+Clearly distinguish predictions from verified incidents.
+
+## B. Accident Detection
+
+Create an accident detection module that can accept:
+- Uploaded images.
+- Uploaded video clips.
+- Simulated camera events.
+
+If a configured vision model is available, use it for image/video analysis.
+
+Otherwise, provide a clearly labelled simulation mode.
+
+Show:
+- Possible accident type.
+- Location.
+- Severity estimate.
+- Detection confidence.
+- Verification status.
+
+Never automatically treat an AI prediction as a confirmed road closure.
+
+## C. Road Reliability Intelligence
+
+Calculate route reliability using:
+- Congestion.
+- Historical traffic.
+- Road closures.
+- Incident reports.
+- Data quality.
+- Traffic volatility.
+
+Display a route reliability percentage.
+
+Allow the routing engine to choose a slightly longer but more dependable route.
+
+## D. Emergency Intelligence Summary
+
+Display:
+- Active risk zones.
+- Predicted bottlenecks.
+- High-priority emergencies.
+- Route failure warnings.
+- Traffic anomaly alerts.
+
+Do not invent real-world AI performance statistics.
+
+---
+
+# 8. EMERGENCY GREEN CORRIDOR
+
+This is one of the signature features.
+
+When an authorized ambulance is dispatched:
+
+1. Calculate the best feasible emergency route.
+2. Identify intersections along the route.
+3. Create an emergency priority corridor request.
+4. Display affected traffic signals.
+5. Simulate approved signal-priority activation.
+6. Show upcoming signal status.
+7. Update the corridor as the ambulance moves.
+8. Release priority after the vehicle passes.
+
+Create an impressive visual green corridor on the map.
+
+Display:
+- Corridor ID.
+- Ambulance ID.
+- Number of intersections.
+- Current corridor status.
+- Upcoming intersection.
+- Estimated arrival.
+- Priority request status.
+
+Add a simulated traffic-control interface.
+
+Allow the traffic authority to:
+- Approve a corridor.
+- Reject a corridor.
+- Pause priority.
+- Release priority.
+- View conflicting requests.
+
+Never represent a simulated signal change as an actual physical traffic signal change.
+
+Implement safety-aware intersection conflict prevention.
+
+---
+
+# 9. MULTI-AMBULANCE CONFLICT RESOLUTION
+
+Create a coordination engine.
+
+Simulate multiple ambulances approaching overlapping intersections.
+
+Evaluate:
+- Emergency priority.
+- Severity.
+- Estimated arrival time.
+- Intersection availability.
+- Existing corridor reservations.
+
+Prevent conflicting signal-priority requests.
+
+Display the decision explanation in an event log.
+
+Allow a dispatcher to review or override the decision.
+
+All decisions should be auditable.
+
+---
+
+# 10. SMART AMBULANCE DISPATCH
+
+Create a dedicated dispatch page.
+
+Show available ambulance fleet.
+
+Each ambulance should contain:
+- Vehicle ID.
+- GPS position.
+- Availability.
+- Medical capabilities.
+- Current assignment.
+- ETA.
+- Driver status.
+
+When a new emergency arrives:
+
+Automatically recommend suitable ambulances based on:
+- Distance.
+- Estimated arrival time.
+- Availability.
+- Emergency requirements.
+- Medical capabilities.
+
+Display the top three recommended ambulances.
+
+Allow dispatcher confirmation.
+
+After dispatch:
+- Change ambulance status to responding.
+- Assign the emergency.
+- Calculate route.
+- Start GPS simulation.
+- Update dashboard.
+- Notify the relevant interface.
+- Activate the corridor request workflow.
+
+Support multiple simultaneous emergencies.
+
+Never allocate the same available ambulance to two active emergencies.
+
+---
+
+# 11. SMART HOSPITAL MATCHING
+
+Create a hospital readiness module.
+
+Include realistic demonstration entries for:
+
+- VIMSAR, Burla.
+- Sambalpur District Headquarters Hospital.
+- Other clearly labelled sample hospitals.
+
+Display:
+- Hospital name.
+- Distance.
+- Estimated travel time.
+- Trauma capability.
+- ICU availability.
+- Emergency department status.
+- Bed availability.
+- Last updated timestamp.
+
+Recommend hospitals using:
+- Required medical facilities.
+- Distance.
+- Verified availability.
+- Ambulance ETA.
+
+Allow the dispatcher to select the destination.
+
+Use clearly labelled sample availability data where actual hospital integration is unavailable.
+
+Do not claim to access live hospital records without authorization.
+
+---
+
+# 12. ONE-TAP EMERGENCY SOS — HIGHEST PRIORITY
+
+Build a prominent red SOS button.
+
+It must be accessible from:
+- Landing page.
+- Command center top navigation.
+- Sidebar.
+- Mobile navigation.
+- Installed application home screen where supported.
+
+The SOS workflow must be exceptionally simple.
+
+When the user taps SOS, open a clean emergency interface.
+
+Do not force login or lengthy registration before accessing emergency assistance.
+
+Display four large emergency categories:
+
+1. Road Accident.
+2. Chest Pain / Heart Emergency.
+3. Breathing Difficulty.
+4. Severe Trauma / Fire.
+
+Support multilingual text.
+
+Allow the user to choose an emergency type.
+
+Capture:
+- Current GPS coordinates when permission is available.
+- Last known location.
+- Timestamp.
+- Emergency category.
+- Optional short description.
+- Optional contact information.
+
+Provide:
+- Dispatch Emergency Request.
+- Call 112.
+- Cancel Request.
+
+The dispatch action must:
+1. Generate a unique emergency ID.
+2. Store the incident.
+3. Send it to the command center when connected.
+4. Notify the dispatch interface.
+5. Recommend available ambulances.
+6. Display transmission and acknowledgement status.
+
+Use a clear status sequence:
+
+- Saved locally.
+- Sending.
+- Received by server.
+- Acknowledged.
+- Dispatcher reviewing.
+- Ambulance assigned.
+- En route.
+- Arrived.
+- Resolved.
+
+Do not claim an ambulance has been dispatched before confirmation.
+
+Support emergency voice input where browser/device permissions permit.
+
+Allow voice SOS in supported languages.
+
+The SOS interface must have:
+- Large buttons.
+- High contrast.
+- Minimal text.
+- Clear instructions.
+- Accessibility support.
+- Touch-friendly controls.
+
+Do not use a complicated form.
+
+---
+
+# 13. OFFLINE-FIRST EMERGENCY SYSTEM
+
+This is a mandatory core feature.
+
+Build the application as a Progressive Web App with:
+
+- Web App Manifest.
+- Service Worker.
+- IndexedDB.
+- Cache API.
+- Offline fallback page.
+- Local emergency queue.
+- Synchronization engine.
+
+The user should be able to install the application and access essential emergency features without an internet connection.
+
+## Offline capabilities
+
+Support:
+
+1. Opening the installed application.
+2. Accessing previously cached maps.
+3. Viewing emergency contact information.
+4. Capturing GPS coordinates when available.
+5. Creating a local SOS request.
+6. Storing emergency details locally.
+7. Saving incident reports.
+8. Viewing last-known location.
+9. Viewing previously downloaded routes.
+10. Queueing requests for later synchronization.
+
+## Offline SOS workflow
+
+When the user presses SOS without internet:
+
+- Generate an emergency ID locally.
+- Capture location if available.
+- Save the request in IndexedDB.
+- Display a prominent offline warning.
+- Offer direct 112 calling.
+- Offer available SMS fallback where supported and explicitly configured.
+- Automatically retry transmission when connectivity returns.
+
+Prevent duplicate SOS submissions.
+
+Use a unique idempotency key for every incident.
+
+Display:
+
+"Your emergency request is saved on this device but has NOT yet reached the emergency response center."
+
+When internet returns:
+- Detect connectivity.
+- Retry pending requests.
+- Synchronize local and server records.
+- Update the delivery status.
+- Avoid duplicate incident creation.
+
+Do not falsely claim that a locally saved request has been delivered to emergency authorities.
+
+Background synchronization should use supported browser capabilities with a foreground retry fallback.
+
+## Offline map support
+
+Allow users to download a designated map area for offline use.
+
+Cache essential map assets and road data where licensing and provider terms permit.
+
+Use cached route information only as reference.
+
+Display a clear warning that offline routes may be outdated.
+
+Do not claim live traffic monitoring while offline.
+
+## Direct emergency calling
+
+Provide a highly visible Indian emergency call action:
+
+112.
+
+Use a phone-call link where the device supports it.
+
+Explain that actual calling requires cellular voice connectivity.
+
+A web application cannot transmit an emergency request to a server when no communication channel exists.
+
+Make these limitations visible without making the interface confusing.
+
+---
+
+# 14. REMOTE GUARDIAN / FAMILY EMERGENCY SOS
+
+Create a dedicated Remote Guardian module.
+
+Purpose:
+
+A person living in another city should be able to request help for a family member in Sambalpur.
+
+Features:
+
+- Add trusted family members.
+- Store their authorized emergency contact information.
+- Save home location.
+- Select an emergency preset.
+- Trigger a remote emergency request.
+- Show incident location.
+- Display assigned ambulance.
+- Show live route where available.
+- Share an emergency tracking link.
+- Display arrival status.
+
+Emergency presets:
+- Elderly parent: Cardiac emergency.
+- Parent: Severe fall.
+- Grandparent: Breathing emergency.
+
+These are demonstration presets, not medical diagnoses.
+
+Require appropriate consent and authorization before accessing another person's location or initiating remote assistance.
+
+Show the distinction between:
+- SOS requester.
+- Person needing help.
+- Emergency location.
+- Responding ambulance.
+
+Use synthetic personal data in the demonstration.
+
+---
+
+# 15. MULTILINGUAL SUPPORT — MANDATORY
+
+Build a proper multilingual internationalization system.
+
+Initial supported languages:
+
+1. English.
+2. Hindi.
+3. Odia.
+
+Architecture should allow adding more Indian languages later.
+
+Add a language selector in the top navigation.
+
+The selector should display:
+- English.
+- हिंदी.
+- ଓଡ଼ିଆ.
+
+When the user switches languages, immediately translate the entire interface.
+
+Translate:
+- Navigation.
+- Sidebar.
+- Dashboard.
+- Emergency forms.
+- SOS interface.
+- Alerts.
+- Buttons.
+- Status labels.
+- Maps and map controls where applicable.
+- Notifications.
+- Offline messages.
+- Settings.
+- Analytics.
+- Voice guidance.
+
+Do not translate only the landing page.
+
+Use a proper translation dictionary architecture such as i18next.
+
+Do not hardcode interface text throughout components.
+
+Ensure:
+- Correct Hindi characters.
+- Correct Odia characters.
+- Unicode support.
+- Proper font rendering.
+- No broken glyphs.
+- Responsive text layout.
+
+Do not use machine-translated text that is grammatically incorrect.
+
+Use reviewed translations for emergency-critical messages.
+
+## Voice support
+
+Support:
+- Voice emergency requests.
+- Voice guidance.
+- Text-to-speech.
+- Speech-to-text where browser support exists.
+
+The user should be able to speak in English, Hindi, or Odia where speech services support the language.
+
+Provide a manual text input fallback.
+
+Use speech recognition only after explicit user action and permission.
+
+---
+
+# 16. TEXT-BASED EMERGENCY SUPPORT
+
+Not everyone can use voice commands.
+
+Provide a complete text-based emergency interface.
+
+Features:
+- Large readable text.
+- Simple language.
+- High contrast.
+- Large touch targets.
+- Minimal typing.
+- Emergency quick replies.
+- Multilingual instructions.
+- Text-based incident reporting.
+- Clear location confirmation.
+- Accessible screen-reader labels.
+
+Add an optional emergency text assistance panel.
+
+Suggested quick messages:
+
+- I need an ambulance.
+- There has been an accident.
+- Someone is unconscious.
+- I am having difficulty breathing.
+- I cannot speak.
+- I need help finding my location.
+
+The user can select a message and send it with their location.
+
+For users unable to type, support predefined emergency options.
+
+---
+
+# 17. PUBLIC TRANSPORT OPTIMIZATION
+
+Create a dedicated public transport page.
+
+Features:
+- Live bus locations.
+- Bus route visualization.
+- Traffic disruption alerts.
+- Automatic alternative route recommendations.
+- Estimated passenger delays.
+- Driver notifications.
+- Affected stop notifications.
+- Route status.
+
+When a road is blocked:
+- Identify affected bus routes.
+- Calculate feasible alternatives.
+- Estimate passenger delay.
+- Update the transit dashboard.
+- Inform the driver interface.
+
+Do not prioritize an ambulance by creating an unsafe bus movement or illegal route.
+
+---
+
+# 18. ANALYTICS AND PERFORMANCE
+
+Create a professional analytics page.
+
+Display:
+- Emergency response times.
+- Average rerouting latency.
+- Ambulance utilization.
+- Road disruption frequency.
+- ETA accuracy.
+- Route reliability.
+- Green corridor activation history.
+- Hospital destination distribution.
+- Public transport delay.
+
+Use real application events to populate charts.
+
+Provide filters:
+- Today.
+- Last 7 days.
+- Last 30 days.
+- Custom period.
+
+Provide a baseline comparison:
+
+1. Static shortest-path routing.
+2. Dynamic routing.
+3. RouteResQ coordinated emergency routing.
+
+Show results from actual simulation runs.
+
+Never fabricate experimental improvements or present sample data as measured real-world performance.
+
+Allow exporting analytics as CSV.
+
+---
+
+# 19. SETTINGS AND ADMINISTRATION
+
+Create a professional settings page.
+
+Include:
+- Language preferences.
+- Accessibility settings.
+- Emergency contacts.
+- Notification settings.
+- Offline map management.
+- Location permissions.
+- Data synchronization.
+- Account and role settings.
+- Demo mode.
+- Reset simulation.
+
+Support roles:
+- Administrator.
+- Emergency dispatcher.
+- Traffic authority.
+- Ambulance operator.
+- Hospital operator.
+- Public user.
+
+Use role-based interface permissions.
+
+---
+
+# 20. DEMONSTRATION SCENARIO — MAKE THIS WORK PERFECTLY
+
+This is extremely important for the hackathon presentation.
+
+Create an interactive simulation called:
+
+**SAMBALPUR EMERGENCY RESPONSE SCENARIO**
+
+The user should be able to start the entire demonstration with one button.
+
+Initial situation:
+
+- An ambulance is dispatched.
+- An emergency occurs near Burla.
+- The destination is VIMSAR.
+- The system calculates three possible routes.
+- One road becomes blocked because of an accident.
+- The traffic condition changes.
+- RouteResQ detects the roadblock.
+- The affected road is removed from the usable routing graph.
+- The system automatically recalculates the route.
+- The old route turns red.
+- The alternative route appears in orange.
+- The new priority corridor appears in green.
+- The ambulance marker moves along the selected route.
+- The ETA changes.
+- The command center receives an incident notification.
+- The traffic authority interface receives a corridor request.
+- Simulated signal priority activates after approval.
+- The ambulance approaches the hospital.
+- The incident is marked completed.
+
+Create a visible event timeline.
+
+Example:
+
+11:42 — Emergency received.
+
+11:43 — Ambulance recommended.
+
+11:44 — Ambulance assigned.
+
+11:45 — Road accident detected.
+
+11:45 — Route recalculated.
+
+11:46 — Alternative corridor approved.
+
+11:48 — Ambulance reaches hospital.
+
+These are simulation timestamps, not claims of actual emergency performance.
+
+## Simulation controls
+
+- Start Scenario.
+- Pause.
+- Resume.
+- Reset.
+- Next Event.
+- Simulate Roadblock.
+- Simulate Congestion.
+- Simulate Ambulance Movement.
+- Simulate Second Ambulance.
+- Simulate Network Failure.
+- Restore Network.
+- Simulate Hospital Update.
+
+Every simulation action must update the real application state.
+
+Do not use a pre-rendered video as a substitute for a working simulation.
+
+---
+
+# 21. TECHNICAL IMPLEMENTATION
+
+Use a clean, modular architecture.
+
+Preferred stack:
+
+Frontend:
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Lucide icons.
+- React Router.
+- Leaflet.
+- Recharts.
+
+Backend:
+- Node.js.
+- Express.
+- TypeScript.
+
+Database:
+- Firebase Firestore or another suitable persistent database.
+- IndexedDB for offline records.
+- Local storage only for lightweight preferences.
+
+Real-time communication:
+- Socket.IO or Firebase real-time listeners.
+
+AI:
+- Gemini API for optional natural-language emergency classification and assistance.
+- Python FastAPI service for advanced prediction if feasible.
+- Rule-based fallbacks for critical routing and dispatch functions.
+
+Routing:
+- OpenStreetMap.
+- OSRM or GraphHopper.
+- A* and Dijkstra graph algorithms.
+
+PWA:
+- Service workers.
+- Web manifest.
+- IndexedDB.
+- Cache API.
+- Background Sync where supported.
+
+Use secure environment variables for API credentials.
+
+Do not expose secrets in frontend source code.
+
+If external API credentials are unavailable, implement a fully functional simulation mode with local sample data.
+
+The application must still run without paid API subscriptions.
+
+---
+
+# 22. DATA AND INTEGRATION RULES
+
+Use real geographic map data wherever available.
+
+Use synthetic sample data for:
+- Ambulance locations.
+- Emergency incidents.
+- Hospital availability.
+- Traffic conditions.
+- Road disruptions.
+- Simulation events.
+
+Clearly label demonstration data.
+
+Use proper timestamps.
+
+Store:
+- Incident source.
+- Verification state.
+- Confidence.
+- Last update time.
+- Location coordinates.
+
+Never invent live government integrations.
+
+Design modular adapters for future authorized integrations with:
+- Emergency response systems.
+- Ambulance operators.
+- Traffic authorities.
+- Hospital systems.
+- Traffic cameras.
+- Public transport operators.
+
+---
+
+# 23. FUNCTIONALITY REQUIREMENTS
+
+THIS SECTION IS NON-NEGOTIABLE.
+
+Do not create decorative controls.
+
+Every visible interactive element must have a meaningful action.
+
+Examples:
+
+- SOS opens and executes the emergency workflow.
+- Voice SOS requests microphone permission and starts supported voice recognition.
+- Language selector translates the entire interface.
+- Launch Command Center opens the dashboard.
+- Overview opens the overview page.
+- Live Operations opens the interactive map.
+- Emergency Intelligence opens the AI modules.
+- Smart Dispatch opens ambulance allocation.
+- Recovery & Offline opens offline management.
+- Report Emergency creates an incident.
+- Smart Dispatch assigns an available ambulance.
+- Track Live Map opens the relevant ambulance route.
+- Hospital Select updates the emergency destination.
+- Roadblock simulation changes graph edge availability.
+- Rerouting recalculates the path.
+- Start Scenario runs the complete scenario.
+- Pause and Resume actually control the simulation.
+- Export Analytics generates a CSV.
+- Download Offline Map saves the selected supported data.
+- Restore Network triggers synchronization.
+- Reset Simulation resets demo state.
+
+Do not show fake success notifications.
+
+Every action must update application state and, where appropriate, persistent storage.
+
+Use consistent loading, success, error, and empty states.
+
+Prevent duplicate submissions.
+
+Handle permission denial gracefully.
+
+Handle missing GPS gracefully.
+
+Handle API failures gracefully.
+
+---
+
+# 24. QUALITY AND RESPONSIVENESS
+
+Test and refine the following:
+
+- Desktop layout.
+- Laptop layout.
+- Tablet layout.
+- Mobile layout.
+- Navigation.
+- Map responsiveness.
+- SOS accessibility.
+- Language switching.
+- Offline behavior.
+- Online synchronization.
+- Route recalculation.
+- Multiple emergency events.
+- Data consistency.
+
+Do not leave:
+- Broken buttons.
+- Empty pages.
+- Placeholder text.
+- Nonfunctional forms.
+- Fake live indicators.
+- Unimplemented menu items.
+- Missing translations.
+- Incorrect map coordinates.
+- Horizontal overflow.
+- Console errors.
+
+Use realistic loading animations and skeleton states only where needed.
+
+---
+
+# 25. DEVELOPMENT PRIORITIES
+
+Build in this order, but keep the final application visually consistent throughout.
+
+Priority 1:
+- Brand and design system.
+- Landing page.
+- Command center.
+- Interactive map.
+- Emergency SOS.
+
+Priority 2:
+- Dynamic routing.
+- Roadblock simulation.
+- Ambulance tracking.
+- Smart dispatch.
+- Green corridor.
+
+Priority 3:
+- Offline-first functionality.
+- Multilingual support.
+- Voice and text emergency assistance.
+- Remote Guardian.
+
+Priority 4:
+- AI intelligence.
+- Hospital matching.
+- Public transit optimization.
+- Analytics.
+
+Priority 5:
+- Full integration.
+- Testing.
+- Error handling.
+- Performance optimization.
+
+Do not sacrifice functional core features to add decorative visual sections.
+
+---
+
+# 26. FINAL PRODUCT ACCEPTANCE CRITERIA
+
+The final result must satisfy all of the following:
+
+[ ] Premium design matching the uploaded references.
+
+[ ] Complete RouteResQ brand identity.
+
+[ ] Working landing page.
+
+[ ] Working emergency command center.
+
+[ ] Interactive real geographic map.
+
+[ ] Ambulance tracking simulation.
+
+[ ] Dynamic route calculation.
+
+[ ] Multiple route comparison.
+
+[ ] Working roadblock simulation.
+
+[ ] Automatic route recalculation.
+
+[ ] Emergency green corridor visualization.
+
+[ ] Multi-ambulance conflict management.
+
+[ ] Smart ambulance dispatch.
+
+[ ] Hospital matching.
+
+[ ] AI traffic intelligence interface.
+
+[ ] Public transport rerouting.
+
+[ ] One-tap SOS.
+
+[ ] Direct 112 calling option.
+
+[ ] Offline emergency request queue.
+
+[ ] Offline map support.
+
+[ ] Automatic synchronization when connectivity returns.
+
+[ ] English, Hindi, and Odia support across the application.
+
+[ ] Voice emergency assistance where supported.
+
+[ ] Text-based emergency assistance.
+
+[ ] Remote Guardian.
+
+[ ] Working analytics.
+
+[ ] Functional navigation and settings.
+
+[ ] Responsive mobile interface.
+
+[ ] No fake claims of real emergency dispatch.
+
+[ ] No disconnected demo pages.
+
+---
+
+# 27. FINAL DESIGN AND ENGINEERING INSTRUCTION
+
+Think like a team building a real national-scale emergency mobility platform.
+
+The interface must look like a premium enterprise product.
+
+The routing engine must have genuine logic.
+
+The emergency workflow must be simple.
+
+The offline system must be honest and reliable.
+
+The multilingual system must work across the entire application.
+
+The map must be interactive and geographically meaningful.
+
+The simulation must demonstrate the complete emergency response lifecycle.
+
+Do not simplify this into a static prototype.
+
+Do not remove requested features silently.
+
+Do not replace real application functionality with screenshots.
+
+Do not spend all your effort on the landing page.
+
+Build the actual working product first, then polish the design.
+
+If a third-party integration requires credentials or government authorization, build a clearly labelled simulation or integration-ready adapter instead of pretending it is connected.
+
+**THE FINAL GOAL:**
+
+Create RouteResQ as a visually outstanding, technically credible, fully interconnected, offline-capable, multilingual emergency mobility intelligence prototype that demonstrates how a city can coordinate ambulances, traffic infrastructure, hospitals, and public transport to reduce emergency response delays.
+
+Make the judges understand one thing immediately:
+
+**RouteResQ does not just find a faster route. It makes the entire city respond smarter.**
+
+Build it now.

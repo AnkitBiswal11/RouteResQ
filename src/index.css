@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-navy: #142D4F;
+  --color-brand-blue: #2878E8;
+  --color-emergency-red: #F00016;
+  --color-priority-green: #13A878;
+  --color-surface-bg: #F3F6FB;
+  --color-warning-amber: #F2A51A;
+}
+
+/* Custom Leaflet container */
+.leaflet-container {
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+}
+
+/* Custom pulse animations for emergency beacons */
+@keyframes emergency-beacon {
+  0% {
+    box-shadow: 0 0 0 0 rgba(240, 0, 22, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(240, 0, 22, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(240, 0, 22, 0);
+  }
+}
+
+.emergency-beacon-pulse {
+  animation: emergency-beacon 1.8s infinite;
+}
+
+/* Custom green corridor pulse */
+@keyframes corridor-glow {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 1; }
+}
+
+.corridor-active-glow {
+  animation: corridor-glow 2s infinite ease-in-out;
+}
